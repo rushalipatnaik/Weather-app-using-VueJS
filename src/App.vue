@@ -36,5 +36,24 @@ export default {
 </script>
 
 <style>
+   * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: 'montserrat', sans-serif;
+}
+
+#app {
+  background-image: url('./assets/cold-bg.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4s;
+}
+
+#app.warm {
+  background-image: url('./assets/warm-bg.jpg');
+}
 </style>
